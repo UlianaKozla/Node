@@ -1,4 +1,5 @@
 const fs = require('fs');
+
 module.exports = (grupaName, studentName) => {
         fs.mkdir(`./${grupaName}`, err => {
             if (!err) {
